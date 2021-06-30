@@ -1,0 +1,74 @@
+ 
+<html>
+    <head>
+      <title>case study</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    </head>
+  
+    <body>
+      <center>
+  <div class="col-xs-12 header">
+  <h2> TEST IMAGE
+  <img src="logo.gif" alt=""></h2>
+  </div>
+  <div class="col-xs-12 webcam">
+    <div id="camera"></div>  
+    <br>
+    <button class="btn btn-info" onclick="takepic()">click image</button>
+    <br>
+  <label for="output for mobilenet">Output on Mobilenet model -</label>
+  <br>
+  <label for="output for microsoft azure">Output on microsoft azure-</label>
+  <div class="col-xs-12 result">
+    <div id="output">
+      <h4>Result -</h4>
+      <div class="bob">
+<li> 
+<b>test image = </b><img src="https://www.imageidentify.com/public/prd/result/0/o/u/d/j/o/5/h/5/1/x/p/7/preview.jpeg?v=1.13&t=1624965541" class="img-responsive"
+</li>
+ <h5>output on<b> wolfrom project</b> -
+        <span>bedroom</span>
+      </h5>
+
+      <h5>output on<b>mobilenet model</b> -
+        <span>window shade</span> 
+        <h5> output on wolfrom project is more accurate</h5>
+      </div>
+      <hr>
+    </div>
+  </div>
+  
+  </div>
+        
+    </div>
+    <div class="webcam col-xs-12" > <label for="">snapshot</label>
+    <div id="result"></div>
+    
+    <button class="btn btn-success" onclick="predict()"> predict</button>
+    
+    </div>
+    
+    
+        </center>
+        <div class="col-xs-12 footer">
+          <h4 class="col-xs-12">
+        <img src="blub.gif" alt="">
+        <span id="objectname"></span>
+          </h4>
+
+
+        </div>
+     <div class="arpit">devloped by-ARPIT KUMAR GOYAL</div> 
+
+  <script src="main.js"></script>
+    </body>
+  </html>                         
